@@ -1,0 +1,66 @@
+body {
+    background-color:linen;
+    font-family: Arial;
+    margin: 30px;
+}
+#timeline {
+    width: 90%;
+    margin: auto;
+}
+#header {
+    background-color: linen;
+    border: 2px solid sienna;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#me {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid sienna;
+}
+.stage {
+    background-color: linen;
+    border: 2px solid sienna;
+    border-left: 8px solid sienna;
+    padding: 20px;
+    margin-top: 15px;
+}
+#past {
+    margin-left: 0px;
+}
+#present {
+    margin-left: 40px;
+}
+#future {
+    margin-left: 80px;
+    border: 2px dashed sienna;
+    border-left: 8px dashed sienna;
+}
+h1, h2, h3 {
+    color: maroon;
+}
+.year {
+    font-weight: bold;
+    color: sienna;
+}
+.fact {
+    background-color: linen;
+    border: 1px solid sienna;
+    padding: 12px;
+    display: inline-block;
+    width: 25%;
+    margin: 5px;
+    vertical-align: top;
+}
+.goal {
+    background-color: linen;
+    border: 1px dashed sienna;
+    padding: 12px;
+    display: inline-block;
+    width: 25%;
+    margin: 5px;
+    vertical-align: top;
+}
